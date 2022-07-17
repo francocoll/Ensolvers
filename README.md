@@ -6,9 +6,9 @@
   <ol>
   <li>In the backend folder create a file .env with the following variables
   </br>
-  DB_USER={postgresuser}
+  DB_USER=postgresuser
   </br>
-  DB_PASSWORD={your postgres password}
+  DB_PASSWORD=postgres password
   </br>
   DB_HOST=localhost 
   </br>
