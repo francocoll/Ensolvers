@@ -18,12 +18,13 @@
   <li>Connect to Postgre with SQL Shell</li>
   <ul>
   <li>Insert the next commands on the SQL Shell terminal:</li>
-  <li>CREATE DATABASE tasksdb</li>
+  <li>CREATE DATABASE tasksdb;</li>
   <li>CREATE TABLE task(
     id SERIAL PRIMARY KEY,
     title VARCHAR(225) UNIQUE,
     description VARCHAR(255)
 );</li>
+  <li>\c tasksdb</li>
   </ul>
   <li>On the path /backend execute npm install and npm run dev </li>
   <li>On the path /frontend execute npm install and npm start</li>
